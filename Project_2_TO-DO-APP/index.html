@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TaskFlow Pro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <div class="todo-card">
+
+        <h1>🚀 TaskFlow Pro</h1>
+        <p class="subtitle">Smart To-Do Manager</p>
+
+        <div class="input-section">
+            <input type="text" id="taskInput" placeholder="Enter a task...">
+            <button id="addBtn">➕ Add</button>
+            
+        </div>
+
+        <input
+            type="text"
+            id="searchInput"
+            placeholder="🔍 Search tasks..."
+            class="search-box"
+        >
+
+        <div class="stats">
+            <span>Total: <b id="totalTasks">0</b></span>
+            <span>Completed: <b id="completedTasks">0</b></span>
+            <span>Pending: <b id="pendingTasks">0</b></span>
+        </div>
+
+        <ul id="taskList"></ul>
+
+        <div id="emptyState">
+            ✨ No tasks yet. Add your first task!
+        </div>
+
+        <button id="clearAll" class="clear-btn">
+            🧹 Clear All Tasks
+        </button>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
