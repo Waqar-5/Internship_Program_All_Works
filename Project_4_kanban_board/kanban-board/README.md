@@ -130,9 +130,3 @@ kanban-board/
 ## 👨‍💻 Author
 
 Developed as part of internship learning project.
-
----
-
-## 📄 License
-
-This project is open-source and free to use for learning purposes.
